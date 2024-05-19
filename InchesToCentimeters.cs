@@ -21,7 +21,7 @@ class Program
 
     /* Here is where declare a variable to represent
         a measurement in inches, and assign a value. */
-        int inches = 5; /* This value changes based 
+        int inches = 50; /* This value changes based 
                             on the Unit Test */
 
     /* Here is where we display the measurement in 
@@ -37,9 +37,9 @@ class Program
 
         /* Here we will display the measurement in both 
             inches and centimeters
-            —Unit Test 1, Required Inputs:  5 inches 
-                          Expected Outcome: 12.7 centimeters. */
-            Console.WriteLine("Unit Test 1 - 5 inches:");
+            —Unit Test 2, Required Inputs:  50 inches 
+                          Expected Outcome: 127 centimeters. */
+            Console.WriteLine("Unit Test 2 - 50 inches:");
             Console.WriteLine("{0} inches is {1} centimeters.", inches, centimeters); 
 
     }
