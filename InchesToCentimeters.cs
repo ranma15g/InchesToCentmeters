@@ -21,17 +21,18 @@ class Program
 
     /* Here is where declare a variable to represent
         a measurement in inches, and assign a value. */
-        int inches = 5; // You can change this value
+        int inches = 5; /* This value changes based 
+                            on the Unit Test */
 
     /* Here is where we display the measurement in 
         both inches and centimeters */
         double centimeters = inches * CENTIMETERS_PER_INCH;
                 /* Please note that this is implicit type
-                    casting where we combine an int and a 
-                    float when we perform mathematical 
+                    casing where we combine an int and a 
+                    double. When we perform mathematical 
                     operations. The int gets converted to 
-                    a float and the result of this
-                    equation becomes a float. */
+                    a double and the result of this
+                    equation becomes a double. */
 
 
         /* Here we will display the measurement in both 
