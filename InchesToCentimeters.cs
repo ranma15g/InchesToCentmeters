@@ -21,7 +21,7 @@ class Program
 
     /* Here is where we declare a variable to represent
         a measurement in inches, and assign a value. */
-        int inches = -15; /* This value changes based 
+        int inches = 15994; /* This value changes based 
                             on the Unit Test */
 
     /* Here is where we convert inches to centimeters */
@@ -36,9 +36,9 @@ class Program
 
         /* Here we will display the measurement in both 
             inches and centimeters
-            —Unit Test 3, Required Inputs:  -15 inches 
-                        Expected Outcome: -38.1 centimeters. */
-            Console.WriteLine("Unit Test 3 - -15 inches:");
+            —Unit Test 4, Required Inputs:  15994 inches 
+                        Expected Outcome: 406.24.76 centimeters. */
+            Console.WriteLine("Unit Test 4 -  15994 inches:");
             Console.WriteLine("{0} inches is {1} centimeters.", inches, centimeters); 
 
     }
