@@ -14,26 +14,28 @@ class Program
 {
     static void Main(string[] args)
     {
-    /* Here is where we declars a named constant that holds the 
-        number of centimeters in an inch: 2.54. */
+    /* Here is where we declars a named constant 
+        that holds the number of centimeters in 
+        an inch: 2.54. */
         const double CENTIMETERS_PER_INCH = 2.54;
 
-    /* Here is where declare a variable to represent a measurement 
-        in inches, and assign a value. */
+    /* Here is where declare a variable to represent
+        a measurement in inches, and assign a value. */
         int inches = 5; // You can change this value
 
-    // Here is where we display the measurement in both inches and centimeters
+    /* Here is where we display the measurement in 
+        both inches and centimeters */
         double centimeters = inches * CENTIMETERS_PER_INCH;
-                /* Please note that this is implicit type casting
-                    where we combine an int and a float when we
-                    perform mathematical operations. The int gets
-                    converted to a float and the result of this
+                /* Please note that this is implicit type
+                    casting where we combine an int and a 
+                    float when we perform mathematical 
+                    operations. The int gets converted to 
+                    a float and the result of this
                     equation becomes a float. */
 
 
-        
-        
-        /* Here we will display the measurement in both inches and centimeters
+        /* Here we will display the measurement in both 
+            inches and centimeters
             —Unit Test 1, Required Inputs:  5 inches 
                           Expected Outcome: 12.7 centimeters. */
             Console.WriteLine("Unit Test 1 - 5 inches:");
