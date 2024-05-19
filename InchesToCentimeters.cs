@@ -14,18 +14,17 @@ class Program
 {
     static void Main(string[] args)
     {
-    /* Here is where we declars a named constant 
+    /* Here is where we declare a named constant 
         that holds the number of centimeters in 
         an inch: 2.54. */
         const double CENTIMETERS_PER_INCH = 2.54;
 
-    /* Here is where declare a variable to represent
+    /* Here is where we declare a variable to represent
         a measurement in inches, and assign a value. */
-        int inches = 50; /* This value changes based 
+        int inches = -15; /* This value changes based 
                             on the Unit Test */
 
-    /* Here is where we display the measurement in 
-        both inches and centimeters */
+    /* Here is where we convert inches to centimeters */
         double centimeters = inches * CENTIMETERS_PER_INCH;
                 /* Please note that this is implicit type
                     casing where we combine an int and a 
@@ -37,9 +36,9 @@ class Program
 
         /* Here we will display the measurement in both 
             inches and centimeters
-            —Unit Test 2, Required Inputs:  50 inches 
-                          Expected Outcome: 127 centimeters. */
-            Console.WriteLine("Unit Test 2 - 50 inches:");
+            —Unit Test 3, Required Inputs:  -15 inches 
+                        Expected Outcome: -38.1 centimeters. */
+            Console.WriteLine("Unit Test 3 - -15 inches:");
             Console.WriteLine("{0} inches is {1} centimeters.", inches, centimeters); 
 
     }
